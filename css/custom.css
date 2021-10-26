@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+:root{
+    --primary-color: #7f8fa6;
+    --font-size-primary : 16px;
+}
+
+body{
+    font-family: 'Ubuntu', 'sans-serif';
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+.container-fluid{
+
+    margin: 0.5rem auto;
+    box-shadow: 1px 1px 10px 0.1px var(--primary-color);
+    align-items: center;
+}
+
+.container{
+    width: auto;
+}
+
+header.container{
+    width: auto;
+}
+
+.header nav{
+    width: 3000px;
+}
+
+#header-1{
+    position:relative;
+    width: 100%;
+    align-items: center;
+}
+
+#header-1 a{
+    color: lightslategray;
+}
+
+#header-1 a:hover{
+    background-color: yellow;
+    color: black;
+    opacity: 40%;
+}
+
+
+#header-2{
+    width: 100%;
+    background: rgb(149,149,149);
+    background: linear-gradient(0deg, rgba(149,149,149,1) 0%, rgba(255,255,255,1) 100%);
+    padding: 10px;
+    margin-bottom: 16px;
+}
+
+#header-2 img{
+    width: 160px;
+    height: auto;
+    margin-top: 8px;
+}
+
+
+.col-md-4{
+    font-size: 32px;
+}
+
+.body-upper p{
+    font-size: 30px;
+    text-align: left;
+}
+
+.body-middle h1{
+    width: 100%;
+    align-items: center;
+    background-color:#959595;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+.body-middle img{
+    width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.body-middle ul{
+    list-style: none;
+}
+
+.body-middle ul li{
+    text-align: left;
+    margin-left: 60px;
+    text-decoration: none;
+}
+
+.body-lower h2{
+    width: 100%;
+    align-items: center;
+    background-color:#959595;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+.body-lower p{
+    width: 100%;
+    margin: 14px 5px;
+    font-size: 20px;
+    text-align: justify;
+    align-items: center;   
+}
+
+.footer{
+    color: #959595
+}
+
